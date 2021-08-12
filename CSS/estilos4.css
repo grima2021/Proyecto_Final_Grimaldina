@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+.slide{
+   
+    width: 100%;
+    max-width: 750px;
+    height: 600px;
+    margin: 100px auto;
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.slide ul{
+    padding: 0px;
+    display: flex;
+    width: 175%;
+    animation: slide 15s infinite;
+    
+}
+@keyframes slide{
+    0% {margin-left: 0;}
+    15% {margin-left: 0;}
+
+    20% {margin-left: -100%;}
+    40% {margin-left: -100%;}
+
+    45% {margin-left: -200;}
+    60% {margin-left: -200;}
+}
+.slide li{
+    width: 100%;
+    list-style: none; 
+}
+.slide li img{
+    width: 100%;
+}
